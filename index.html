@@ -70,25 +70,21 @@
         }
         .date-badge:hover { transform: scale(1.05); }
 
-        /* Video Container */
-        .video-container {
-            width: 100%;
-            max-width: 320px;
+        /* Estilo para la foto con marco romántico */
+        .couple-photo-container {
             margin: 0 auto 20px auto;
-            position: relative;
-            padding-bottom: 177.77%; /* 9:16 */
-            height: 0;
+            max-width: 380px;
             border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-            border: 4px solid #fff0f3;
-            background-color: #000;
+            border: 10px solid #fff; /* Marco blanco grueso */
+            box-shadow: 0 10px 25px rgba(214, 51, 132, 0.3); /* Sombra suave y rosada */
+            background-color: #fff;
         }
-        .video-container iframe {
-            position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            border: 0;
+        .couple-photo-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 12px; /* Redondear ligeramente las esquinas de la imagen dentro del marco */
         }
 
         /* Sección Interactiva: Razones por las que te amo */
@@ -269,38 +265,33 @@
         <h1 class="header-title">¡Felices 3 Meses Mi princesitaaaa hermosaaaa! 🥹💗</h1>
         <div class="date-badge" onclick="triggerConfetti()">✨ 13 de Septiembre de 2026 (si me oprimes sale confetti mamá) ✨</div>
 
-        <!-- 🎥 REPRODUCTOR VIDEO YOUTUBE SHORT -->
-        <!-- REEMPLAZA ID_DE_TU_SHORT CON EL CÓDIGO DE TU VIDEO -->
-        <div class="video-container">
-            <iframe 
-                src="https://www.youtube.com/embed/Sai_WaE-2yg?feature=sharemodestbranding=1&rel=0&controls=1" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+        <!-- 🖼️ FOTO ROMÁNTICA CON MARCO -->
+        <div class="couple-photo-container">
+            <img src="nuestra-foto.jpg" alt="Nosotros juntos ❤️">
         </div>
 
         <!-- 🎲 INTERACCIÓN 1: GENERADOR DE RAZONES -->
         <div class="interactive-section">
-            <div style="font-size:0.9em; color:#888; margin-bottom:8px;">💌 Toca el botón para que descubras unas de las pocas razones de por qué te amo:</div>
+            <div style="font-size:0.9em; color:#888; margin-bottom:8px;">💌 Toca el botón para descubrir una razón de por qué te amo:</div>
             <div class="reason-box" id="reasonText">✨ Presiona el botón de abajo ✨</div>
             <button class="action-btn" onclick="nextReason()">💖 Ver otra razón</button>
         </div>
 
         <!-- ✉️ INTERACCIÓN 2: CARTA OCULTA EN SOBRE -->
         <button class="envelope-btn" id="openBtn" onclick="openLetter()">
-            ✉️ Abre esta carta de amor, hecha con mucho amor por tu bebé 💌
+            ✉️ Abrir nuestra carta de amor 💌
         </button>
 
         <div class="letter-box" id="letterBox">
-Mi vidaaaaaa, mi princesita hermosa 🥹💗, hoyyy 13 de septiembre es nuestro tercer aniversario y no sabes lo feliz que me hace poder celebrar estos tres meses contigo, de verdad que me siento el hombre más afortunados del mundo por tener a la mujer más maravillosa del mundo mi lado, estos tres meses han sido los meses más bonitos y felices de mi vida, porque en ellos he podido conocerte cada día un poquito más, enamorarme todavía más de ti y descubrir la increíble mujer que eres, sé que no todo ha sido perfecto y que hemos tenido problemas, discusiones, momentos difíciles y días en los que quizás no hemos sabido entendernos de la mejor manera, pero hay algo que amo de nosotros y es que a pesar de todo siempre hemos encontrado la manera de volver a acercarnos, hablar, solucionar las cosas y seguir escogiendo nuestro amor, y eso para mí vale muchísimo porque me demuestra que lo nuestro es real y que los dos queremos seguir construyendo algo bonito juntos, eres lo mejor que me ha podido pasar en la vida mi princesa, no sabes la felicidad tan enorme que siento cada vez que veo un mensaje tuyo, cada vez que escucho tu voz, cada vez que hablamos, nos reímos o simplemente compartimos cualquier cosa juntos, porque incluso los momentos más sencillos contigo terminan siendo especiales para mí, eres una mujer maravillosa, una niña demasiado especial, tienes un corazón precioso y una forma de querer que me hace sentir el hombre más afortunado del mundo, no sabes lo bien que se siente poder llamarte mi novia, y mientras más tiempo pasa más me doy cuenta de lo mucho que te amo y de lo importante que eres para mí, estos tres meses para mí no son solamente una fecha bonita, son el comienzo de todo lo que sueño vivir contigo, quiero seguir cumpliendo metas a tu lado, quiero acompañarte en tus sueños, apoyarte en cada uno de tus proyectos, celebrar tus logros, estar contigo cuando las cosas sean difíciles y poder compartir contigo cada etapa de nuestra vida, quiero que seas esa persona con la que pueda crear recuerdos más de los que ya hemos creado, quiero que un dia estemos juntos y reírnos hasta que nos duela la barriga, también quiero tener muchísimas aventuras a tu lado y disfrutar de esos pequeños momentos que quizás para otras personas no significan nada pero que para nosotros significan todo, y sí mi amor, sueño con un futuro contigo, sueño con poder formar una familia a tu lado algún día, construir un hogar lleno de amor, respeto, confianza y felicidad, porque cuando pienso en mi futuro, sinceramente me hace mucha ilusión imaginarte formando parte de él, también quiero aprovechar este día tan especial para pedirte perdón por todas las veces que te he hecho daño, por las veces que te he hecho sentir mal, por los momentos en los que quizá no he sabido demostrarte todo lo que siento por ti y por cada error que haya podido hacerte dudar de mi amor, créeme que nunca ha sido mi intención lastimarte y me duele muchísimo saber que alguna vez mis palabras o mis acciones pudieron hacerte sentir así, quiero seguir aprendiendo de mis errores y mejorar cada día para poder amarte de la manera tan bonita que mereces, porque tú mereces sentirte querida, respetada, valorada y segura del amor que tengo por ti, y quiero demostrártelo no solamente con palabras sino también con mis acciones, quiero seguir construyendo contigo una relación cada vez más bonita, más fuerte y más sana, una relación que no se quede solamente en tres meses ni en unos cuantos años, sino que podamos seguir cuidando durante muchísisisisimo tiempo y, si la vida nos lo permite, durante toda nuestra vida, porque yo no quiero que nuestra historia termine nunca, quiero que estos tres meses sean apenas el comienzo de muchísimos aniversarios más, quiero seguir celebrando contigo cada mes, cada año y cada etapa que venga, quiero seguir enamorándome de ti una y otra vez y seguir descubriendo nuevas razones para amarte, gracias mi amor por estos tres meses tan bonitos, gracias por cada momento, cada palabra, cada cariño, cada "te amo", cada risa, cada conversación, cada llamada y cada recuerdo que hemos creado juntos, gracias por llegar a mi vida y por permitirme formar parte de la tuya, gracias por ser tú, por ser esa niña hermosa de la que me enamoré y por hacerme sentir un amor tan bonito, te amo con todo mi corazón mi princesa, te amo muchísimo más de lo que muchas veces sé expresar y quiero que nunca dudes de lo importante que eres para mí, eres una mujer increíble, eres mi niña hermosa, mi princesa y el amor de mi vida, y espero de todo corazón que podamos seguir caminando y construyendo una relación muy bonita juntos durante muchísimo tiempo, apoyándonos, cuidándonos, aprendiendo a conocernos y amándonos cada día un poquito más, felicessss tressss mesesinooooosssss miamorcinooooo, mi niña hermosa, mi princesa hermosaaaa, te amooooo con toda mi alma y con todo mi corazónnnnn, y espero que este sea solamente el tercero de muchísimos aniversarios que nos quedan por celebrar juntinosss, TE AMOOOOO MUCHOOOOOO MI NIÑAAAAA nunca lo olvides mi bebé ricolinaaa🥹💗❤️
+        [Tu carta de amor aquí...]
         </div>
 
         <!-- ❓ INTERACCIÓN 3: PREGUNTA CON BOTÓN ESCABULLIDIZO QUE SE MUEVE -->
         <div class="quiz-box">
-            <div class="quiz-title">¿Me amas muchisimo miamorcino? 🥺💘</div>
+            <div class="quiz-title">¿Me amas muchísimo hoy y para siempre? 🥺💘</div>
             <div class="quiz-buttons">
-                <button class="btn-yes" onclick="answerYes()">¡SIII, TE AMO PAPI! ❤️</button>
-                <button class="btn-no" id="btnNo" onmouseover="moveNoBtn()" onclick="moveNoBtn()" ontouchstart="moveNoBtn()">No, te odio 😜</button>
+                <button class="btn-yes" onclick="answerYes()">¡SIII, TE AMO! ❤️</button>
+                <button class="btn-no" id="btnNo" onmouseover="moveNoBtn()" onclick="moveNoBtn()" ontouchstart="moveNoBtn()">No 😜</button>
             </div>
             <div id="quizResult" style="margin-top:15px; font-weight:bold; color:#d63384; display:none;">
                 ¡Sabía que sí! ¡Yo te amo un millón de veces más mi princesa hermosa! 🙈💗✨
@@ -311,19 +302,19 @@ Mi vidaaaaaa, mi princesita hermosa 🥹💗, hoyyy 13 de septiembre es nuestro 
         <div class="music-section">
             <div class="music-title">❤️ ¡¡LA CANCION QUE NOS REPRESENTA!! ❤️</div>
             <a href="https://open.spotify.com/intl-es/track/6dlZryuz7NIz20faRoZV4k" target="_blank" class="btn-spotify" onclick="triggerConfetti()">
-                <span>Cada que la escucho me acuerdo de ti mamá</span> 🎧
+                <span>Escuchar en Spotify</span> 🎧
             </a>
         </div>
 
         <footer>
-            Lo hice con todo mi amorcino para ti, te amo mucho mi bebina hermosa ❤️
+            Hecho con todo mi amor para ti, te amo mi bebina hermosa ❤️
         </footer>
     </div>
 
     <script>
         // Lista de razones románticas interactivas
         const razones = [
-            "Porque soy el hombre mas feliz a tu lado mi bebé 🥹",
+            "Porque soy el hombre mas feliz a tu lado🥹",
             "Por la forma tan bonita en la que me tratas y me cuidas ❤️",
             "Porque amo escuchar tu voz y reírme contigo 🙈",
             "Porque eres mi lugar seguro y mi niña hermosa ❤️",
